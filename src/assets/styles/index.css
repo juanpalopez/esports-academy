@@ -1,0 +1,46 @@
+.avatar {
+    /* width: 120px; */
+    /* height: 31px; */
+    margin: 16px 24px 16px 0;
+}
+
+.logo {
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background-color: dimgrey;
+}
+
+footer {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    max-height: 360px;
+    line-height: 360px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.site-card-wrapper {
+    background: #ececec;
+    padding: 30px;
+}
+
+.game-card{
+    margin-bottom:15px;
+}
+
+.game-card img{
+    max-height: 250px;
+}
+
+.carousel{
+    width: 100%;
+}
