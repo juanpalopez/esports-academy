@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.0.5",
     "antd": "^4.0.4",
     "gatsby": "^2.19.45",
     "gatsby-plugin-antd": "^2.2.0",

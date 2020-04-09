@@ -1,6 +1,7 @@
 import React from 'react'
 import {Menu, Avatar, Row, Col, Button} from 'antd'
 import { UserOutlined } from '@ant-design/icons';
+import './navbar.css'
 
 class NavBar extends React.Component {
     constructor(props) {
@@ -10,17 +11,16 @@ class NavBar extends React.Component {
     render(){
         return (
             <Row>
-                <Col xs={2}>
+                <Col xs={3}>
                     <Row justify="center">
                         <Col>
                             <div className="logo"></div>
                         </Col>
                     </Row>
                 </Col>
-                <Col xs={20}>
+                <Col xs={10} offset={9}>
                     <Menu
-                        theme="dark"
-                        mode="horizontal"
+                        mode="horizontal" 
                     >
                         <Menu.Item key="1">Dashboard</Menu.Item>
                         <Menu.Item key="2">Cursos</Menu.Item>

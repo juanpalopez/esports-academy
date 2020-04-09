@@ -1,0 +1,25 @@
+footer {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.footer-wrapper{
+    background-color: black;
+    color: #ececec;
+    padding: 60px;
+    
+}
+
+.footer-wrapper h2{
+    color: #ececec;
+}
+
+.footer-list li{
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.social-icons svg{
+    width: 2em;
+    height: 2em;
+}

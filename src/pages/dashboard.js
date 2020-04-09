@@ -1,9 +1,6 @@
 import React from "react"
-import { Carousel, Row, Col, Card } from "antd"
+import { Row, Col, Card } from "antd"
 import Template from "../layouts/base"
-import banner1 from "../assets/images/banner1.png"
-import banner2 from "../assets/images/banner2.png"
-import banner3 from "../assets/images/banner3.jpg"
 const { Meta } = Card;
 
 
@@ -54,17 +51,6 @@ class IndexPage extends React.Component {
     render() {
         return (
             <Template>
-                <Carousel>
-                    <div>
-                        <img src={banner1} className="carousel"></img>
-                    </div>
-                    <div>
-                        <img src={banner2} className="carousel"></img>
-                    </div>
-                    <div>
-                        <img src={banner3} className="carousel"></img>
-                    </div>
-                </Carousel>
 
                 <div className="site-card-wrapper">
                     <Row gutter={16}>

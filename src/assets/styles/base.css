@@ -1,0 +1,50 @@
+@import '~antd/dist/antd.css';
+
+.header{
+    background:linear-gradient(90deg, #715aff 0%, #1fc8db 50%, #2cb5e8 75%);
+}
+
+.ant-layout-header {
+    background: transparent;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 260px;
+    line-height: 260px;
+    /* background: linear-gradient(90deg, #715aff 0%, #1fc8db 50%, #2cb5e8 75%); */
+    background: transparent;
+    overflow: hidden;
+  }
+  
+.ant-carousel .slick-slide h1 {
+    color: #fff;
+    font-size:3em;
+    font-weight: 600;
+}
+
+.wave {
+    position: relative;
+    background: transparent;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.wave > svg {
+    display: block;
+}
+
+
+.site-card-wrapper {
+    background: #ececec;
+    padding: 30px;
+}
+
+.game-card{
+    margin-bottom:15px;
+}
+
+.game-card img{
+    max-height: 250px;
+}
+
