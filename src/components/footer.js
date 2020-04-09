@@ -34,24 +34,24 @@ class FooterSection extends React.Component {
             <div className="footer-wrapper">
 
                 <Row>
-                    <Col md={8} sm={24}>
+                    <Col md={8} xs={24}>
                         <Row justify="center">
                             <div className="logo"></div>
                         </Row>
                     </Col>
-                    <Col md={5} sm={24}>
+                    <Col md={5} xs={24}>
                         <h2>Acerca de</h2>
                         <div>Empresa</div>
                         <div>Prensa</div>
                         <div>Carreras</div>
                     </Col>
-                    <Col md={5} sm={24}>
+                    <Col md={5} xs={24}>
                         <h2>Juegos</h2>
                         {this.state.games.map(game => {
                             return (<div>{game.title}</div>)
                         })}
                     </Col>
-                    <Col md={6} sm={24}>
+                    <Col md={6} xs={24}>
                         <Row justify="center">
                             <Col xs={24}>
                                 <h2>Suscribete al Boletín</h2>
