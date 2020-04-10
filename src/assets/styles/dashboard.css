@@ -1,0 +1,32 @@
+.last-watched{
+    height: 450px;
+    background:rgb(44, 34, 107);
+    padding: 60px;
+}
+
+.last-watched-title{
+   text-align: left;
+   line-height: 3em;
+   padding: 0 10px 0 10px;
+}
+
+.last-watched-title h3{
+   font-weight: 600;
+   color: rgb(223, 156, 33);
+   margin-bottom: 0px;
+}
+
+.last-watched-title h2{
+   font-size: 3em;
+   font-weight: 600;
+   color: antiquewhite;
+}
+
+.last-video-card{
+    width:500px;
+}
+
+.btn-resume{
+    padding: 10px;
+    color:antiquewhite;
+}
