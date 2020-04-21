@@ -10,7 +10,7 @@ This is VOD project for a Esport Academy entirely for Hispanic players who to le
 This project is just the Frontend and is made with:
   * React
   * Gatsby
-
+```
     .
     ├── src
     ├── .gitignore
@@ -23,7 +23,7 @@ This project is just the Frontend and is made with:
     ├── package-lock.json
     ├── package.json
     └── README.md
-
+```
 
 1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
