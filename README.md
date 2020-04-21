@@ -1,5 +1,5 @@
 <h1 align="center">
-  Esport Academy (VOD Proeject)
+  Esport Academy (VOD Project)
 </h1>
 
 This is VOD project for a Esport Academy entirely for Hispanic players who to learn to play or become pro players.
